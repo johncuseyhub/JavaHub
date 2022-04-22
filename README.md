@@ -1,8 +1,5 @@
-<span style="color:green;font-weight:700;font-size:20px"> 
-<p>Java Hub </p>             
-</span>         
 
-
+# Java Hub              
 
 <img src="https://github.com/johncuseyhub/GettingStarted/blob/main/HubBanner.png" alt="John Cusey Hub Logo" height="150" width="1000">
 
@@ -11,8 +8,8 @@ src="https://github.com/johncuseyhub/GettingStarted/blob/main/LogoOrganizations/
 alt="Java 9" 
 height="100px"/> 
 
-<p style="color:Green; font-size:40px;">Cheat Sheet</p>
-<p style="color:blue; font-size:30px;">Abstract Methods and Classes</p>
+# Cheat Sheet
+### Abstract Methods and Classes
 An abstract method can declared implementation or not. An abstract class cannot be instantiated.   
 
 ```Java
