@@ -1,4 +1,8 @@
-<p style="color:Green; font-size:40px;">Java Hub</p>
+<span style="color:green;font-weight:700;font-size:20px"> 
+<p>Java Hub </p>             
+</span>         
+
+
 
 <img src="https://github.com/johncuseyhub/GettingStarted/blob/main/HubBanner.png" alt="John Cusey Hub Logo" height="150" width="1000">
 
