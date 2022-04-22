@@ -42,4 +42,43 @@ public class Square extends Shape {
 }
 ```
 
+# Collection Iterator
 
+### Getting the iterator
+
+```Java
+Iterator<String> itr = bandMembers.iterator(); 
+```
+### Iterate the collection
+
+```Java
+while(itr.hasNext()){  
+     System.out.println(itr.next());  
+ }
+```
+### Remove element from collection 
+```Java
+itr.remove();
+```
+
+# Enumerations    
+
+```Java
+public enum CarSize{
+  SMALL(1), MEDIUM(2), LARGE(3), EXTRALARGE(4);
+    
+  private int size;
+
+  CarSize(int size) {
+    this.size = size;
+  }
+
+  public int getSize() {
+    return this.size;
+  }
+
+  public void setSize(int size) {
+    this.size = size;
+  } 
+}
+```
