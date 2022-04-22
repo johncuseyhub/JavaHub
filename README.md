@@ -44,6 +44,17 @@ public class Square extends Shape {
 
 # Collection Iterator
 
+### Populate the collection
+
+```Java
+ArrayList<String> bandMembers = new ArrayList<String>();
+
+bandMembers.add("Kurt Cobain"); 
+bandMembers.add("Dave Grohl");  
+bandMembers.add("Krist Novoselic");  
+bandMembers.add("Pat Smear"); 
+```
+
 ### Getting the iterator
 
 ```Java
