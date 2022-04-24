@@ -93,3 +93,15 @@ public enum CarSize{
   } 
 }
 ```
+### Methods 
+
+* <b>ordinal()</b> - returns the position of an enum constant
+* <b>compareTo()</b> -  
+* <b></b> - 
+* <b></b> - 
+* <b></b> - 
+* <b></b> - 
+* <b></b> - 
+* <b></b> - 
+* <b></b> - 
+* <b></b> - 
