@@ -1,15 +1,17 @@
 
-# Java Hub              
+<p style="color:green; font-size:60px;">Java Hub </p>
 
 <img src="https://github.com/johncuseyhub/GettingStarted/blob/main/HubBanner.png" alt="John Cusey Hub Logo" height="150" width="1000">
 
-<img 
-src="https://github.com/johncuseyhub/GettingStarted/blob/main/LogoOrganizations/Java.PNG" 
-alt="Java 9" 
-height="100px"/> 
+<img
+src="https://github.com/johncuseyhub/GettingStarted/blob/main/LogoOrganizations/Java.PNG"
+alt="Java 9"
+height="100px"/>
 
-# Cheat Sheet
-### Abstract Methods and Classes
+<p style="color:green; font-size:60px;">Cheat Sheet</p>
+
+
+# Abstract Methods and Classes
 An abstract method can declared implementation or not. An abstract class cannot be instantiated.   
 
 ```Java
@@ -18,7 +20,7 @@ public abstract class Shape {
     public Shape() {}
 
     private String color;
-   
+
    abstract public double area();
 
        public boolean isBlue(){
@@ -49,16 +51,16 @@ public class Square extends Shape {
 ```Java
 ArrayList<String> bandMembers = new ArrayList<String>();
 
-bandMembers.add("Kurt Cobain"); 
+bandMembers.add("Kurt Cobain");
 bandMembers.add("Dave Grohl");  
 bandMembers.add("Krist Novoselic");  
-bandMembers.add("Pat Smear"); 
+bandMembers.add("Pat Smear");
 ```
 
 ### Getting the iterator
 
 ```Java
-Iterator<String> itr = bandMembers.iterator(); 
+Iterator<String> itr = bandMembers.iterator();
 ```
 ### Iterate the collection
 
@@ -67,17 +69,18 @@ while(itr.hasNext()){
      System.out.println(itr.next());  
  }
 ```
-### Remove element from collection 
+### Remove element from collection
 ```Java
 itr.remove();
 ```
+# Default    
 
 # Enumerations    
 
 ```Java
 public enum CarSize{
   SMALL(1), MEDIUM(2), LARGE(3), EXTRALARGE(4);
-    
+
   private int size;
 
   CarSize(int size) {
@@ -90,18 +93,36 @@ public enum CarSize{
 
   public void setSize(int size) {
     this.size = size;
-  } 
+  }
 }
 ```
-### Methods 
+### Methods
 
 * <b>ordinal()</b> - returns the position of an enum constant
 * <b>compareTo()</b> -  
-* <b></b> - 
-* <b></b> - 
-* <b></b> - 
-* <b></b> - 
-* <b></b> - 
-* <b></b> - 
-* <b></b> - 
-* <b></b> - 
+* <b></b> -
+* <b></b> -
+* <b></b> -
+* <b></b> -
+* <b></b> -
+* <b></b> -
+* <b></b> -
+* <b></b> -
+
+# Exception Handling
+# Generic
+# Lambda
+# Runnable Interface
+
+# References
+## Abstract Methods and Classes
+## Collection Iterator
+## Default   
+## Enumerations
+## Exception Handling
+## Generic
+## Lambda   
+* [Functional Interfaces in Java 8 - By baeldung](https://www.baeldung.com/java-8-functional-interfaces)
+* [Java Functional Interfaces - By Jenkov](https://jenkov.com/tutorials/java-functional-programming/functional-interfaces.html)
+
+## Runnable Interface
