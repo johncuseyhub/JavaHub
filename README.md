@@ -182,10 +182,10 @@ Although you have the ability to create new threads by using just the Thread cla
 
 ## Functional Interfaces
 
-* [Package java.util.function - Oracle Docs
-](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)  
+* [Package java.util.function - Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)  
 * [Functional Interfaces in Java 8 - By Baeldung](https://www.baeldung.com/java-8-functional-interfaces)
 * [Java Functional Interfaces - By Jenkov](https://jenkov.com/tutorials/java-functional-programming/functional-interfaces.html)
+* [Java 8 Function Examples - Mkyong](https://mkyong.com/java8/java-8-function-examples/)
 
 
 ## Generic
