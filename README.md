@@ -125,7 +125,9 @@ public enum CarSize{
 
 Java Exception Handling is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.     
 
-Exception is an unwanted or unexpected event, which occurs during the execution of a program, i.e. at run time, that disrupts the normal flow of the program's instructions.   
+Exception is an unwanted or unexpected event, which occurs during the execution of a program, i.e. at run time, that disrupts the normal flow of the program's instructions.
+
+# Functional Interfaces  
 
 # Generic
 
@@ -178,7 +180,10 @@ Although you have the ability to create new threads by using just the Thread cla
 ## Exception Handling
 * [Exceptions in Java](https://www.geeksforgeeks.org/exceptions-in-java)
 
-## Functional Interfaces   
+## Functional Interfaces
+
+* [Package java.util.function - Oracle Docs
+](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html)  
 * [Functional Interfaces in Java 8 - By Baeldung](https://www.baeldung.com/java-8-functional-interfaces)
 * [Java Functional Interfaces - By Jenkov](https://jenkov.com/tutorials/java-functional-programming/functional-interfaces.html)
 
@@ -187,9 +192,10 @@ Although you have the ability to create new threads by using just the Thread cla
 * [Java - Generics - tutorialspoint](https://www.tutorialspoint.com/java/java_generics.htm)
 
 
-
 ## Lambda  
 * [Java 8 - Lambda Expressions - tutorialspoint](https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm)
+* [Java Lambda Expressions - Java T Point](https://www.javatpoint.com/java-lambda-expressions)
+* [Java Lambda Expressions - Programiz ](https://www.programiz.com/java-programming/lambda-expression)
 
 ## Runnable Interface
 * [Runnable interface in Java - GeeksforGeeks ](https://www.geeksforgeeks.org/runnable-interface-in-java/)
