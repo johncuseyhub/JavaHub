@@ -135,6 +135,19 @@ Generics also provide compile-time type safety that allows programmers to catch 
 
 Using Java Generic concept, we might write a generic method for sorting an array of objects, then invoke the generic method with Integer arrays, Double arrays, String arrays and so on, to sort the array elements  
 # Lambda
+Lambda expressions are introduced in Java 8 and are touted to be the biggest feature of Java 8. Lambda expression facilitates functional programming, and simplifies the development a lot.
+
+Syntax       
+A lambda expression is characterized by the following syntax.
+```
+parameter -> expression body
+```
+
+## Example
+```
+MyMath.MathOperation addition = (int a, int b) -> a + b;
+```
+
 # Runnable Interface
 
 ### Why use Runnable
@@ -165,12 +178,18 @@ Although you have the ability to create new threads by using just the Thread cla
 ## Exception Handling
 * [Exceptions in Java](https://www.geeksforgeeks.org/exceptions-in-java)
 
+## Functional Interfaces   
+* [Functional Interfaces in Java 8 - By Baeldung](https://www.baeldung.com/java-8-functional-interfaces)
+* [Java Functional Interfaces - By Jenkov](https://jenkov.com/tutorials/java-functional-programming/functional-interfaces.html)
+
+
 ## Generic
 * [Java - Generics - tutorialspoint](https://www.tutorialspoint.com/java/java_generics.htm)
 
-## Lambda   
-* [Functional Interfaces in Java 8 - By Baeldung](https://www.baeldung.com/java-8-functional-interfaces)
-* [Java Functional Interfaces - By Jenkov](https://jenkov.com/tutorials/java-functional-programming/functional-interfaces.html)
+
+
+## Lambda  
+* [Java 8 - Lambda Expressions - tutorialspoint](https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm)
 
 ## Runnable Interface
 * [Runnable interface in Java - GeeksforGeeks ](https://www.geeksforgeeks.org/runnable-interface-in-java/)
